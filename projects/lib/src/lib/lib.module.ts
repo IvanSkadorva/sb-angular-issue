@@ -6,13 +6,13 @@ import { LibComponent } from './lib.component';
 
 @NgModule({
   declarations: [
-    LibComponent
+    LibComponent,
   ],
   imports: [
     HighchartsChartModule
   ],
   exports: [
-    LibComponent
-  ]
+    LibComponent,
+  ],
 })
 export class LibModule { }
